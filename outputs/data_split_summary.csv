@@ -1,0 +1,4 @@
+station,dist_km,n_train,n_test,rain_rate_train,rain_rate_test
+phuket,26,603,364,45.4,46.2
+krabi,65,603,364,40.3,37.9
+phangnga,73,603,364,43.0,40.9

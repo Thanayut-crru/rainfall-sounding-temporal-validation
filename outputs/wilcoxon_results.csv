@@ -1,0 +1,4 @@
+station,model_a,model_b,statistic,p_value,reject_H0
+phuket,XGB,LR,0.0,0.0078,True
+krabi,XGB,LR,0.0,0.0078,True
+phangnga,XGB,LR,3.0,0.0391,True
