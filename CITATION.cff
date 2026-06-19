@@ -1,27 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it using the metadata below."
+message: "If you use this software, please cite the repository using the metadata below."
 title: "rainfall-sounding-temporal-validation"
-abstract: "A reproducible, temporally validated modelling framework for rainfall
-  occurrence prediction from radiosonde-derived atmospheric instability indices."
 authors:
   - family-names: Changruenngam
     given-names: Thanayut
-    affiliation: "Chiang Rai Rajabhat University"
-    email: thanayut.cha@crru.ac.th
   - family-names: Naitip
     given-names: Weerapon
-    affiliation: "Thai Meteorological Department"
   - family-names: Yodsuwan
     given-names: Hathaiwan
-    affiliation: "Thai Meteorological Department"
 version: "1.0.0"
 date-released: "2026-06-18"
 license: MIT
 repository-code: "https://github.com/Thanayut-crru/rainfall-sounding-temporal-validation"
 keywords:
-  - rainfall classification
-  - radiosonde
+  - rainfall occurrence prediction
+  - upper-air sounding
   - temporal validation
   - machine learning
-  - reproducibility
-  - environmental modelling
+  - calibration
