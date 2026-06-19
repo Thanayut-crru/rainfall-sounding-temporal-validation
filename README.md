@@ -75,10 +75,6 @@ rainfall-sounding-temporal-validation/
 │
 ├── outputs/
 │   └── README.md                  expected output files
-│
-└── docs/
-    └── graphical_abstract.png     graphical abstract
-```
 
 ---
 
