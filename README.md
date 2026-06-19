@@ -74,8 +74,7 @@ rainfall-sounding-temporal-validation/
 │   └── demo_workflow.ipynb        end-to-end demo with sample data
 │
 ├── outputs/
-│   └── README.md                  expected output files
-
+    └── README.md                  expected output files
 ---
 
 ## Data Access
