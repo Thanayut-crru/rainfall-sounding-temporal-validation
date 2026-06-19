@@ -17,12 +17,12 @@ https://www.tmd.go.th
 
 ## Sample Data (this folder)
 
-`sample/sample_sounding_indices.csv` — processed sounding indices (no raw TMD values).
-`sample/sample_labels.csv` — anonymised binary rain/no-rain labels (aggregated monthly).
+`sample/sample_dataset.csv` — sample processed dataset containing sounding-derived
+predictors (real WMO 48565 indices) and synthetic rainfall labels. These data allow
+the demo workflow (`notebooks/demo_workflow.ipynb`) to run end-to-end without raw
+TMD rainfall observations.
 
-These files allow running `demo_workflow.ipynb` without TMD access.
-
-### sample_sounding_indices.csv columns
+### sample_dataset.csv columns
 
 | Column | Description |
 |---|---|
@@ -31,9 +31,18 @@ These files allow running `demo_workflow.ipynb` without TMD access.
 | LIFT | Lifted index |
 | SWET | SWEAT index |
 | KINX | K-index |
+| VTOT | Vertical totals index |
 | CAPE | CAPE (J/kg) |
+| CINS | Convective inhibition (J/kg) |
 | PWAT | Precipitable water (mm) |
 | WDcos850 | cos(850 hPa wind direction) |
 | WDsin850 | sin(850 hPa wind direction) |
 | WS850 | 850 hPa wind speed (kt) |
-| ... | (see feature_sets.json for full list) |
+| RF_phuket | Synthetic daily rainfall label — Phuket (mm) |
+| RF_krabi | Synthetic daily rainfall label — Krabi (mm) |
+| RF_phangnga | Synthetic daily rainfall label — Phang-nga (mm) |
+| ... | (see scripts/02_features.py for full column list) |
+
+> **Note:** RF_* columns contain **synthetic** rainfall amounts derived from PWAT
+> and seasonal signals. They replicate the statistical structure of the real TMD
+> data but are not real observations. Use for demonstration only.
