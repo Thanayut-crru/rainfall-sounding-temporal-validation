@@ -61,7 +61,7 @@ rainfall-sounding-temporal-validation/
 ├── data/
 │   ├── README.md                  data access instructions
 │   └── sample/
-│        └── sample_dataset.csv     sounding predictors + synthetic labels (demo) 
+│       └── sample_dataset.csv     sounding predictors + synthetic labels (demo) 
 │
 ├── scripts/
 │   ├── 01_preprocess.py           sounding download + QC
