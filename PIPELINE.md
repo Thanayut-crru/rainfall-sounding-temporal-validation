@@ -21,7 +21,7 @@ Place raw data in:
 Downloads WMO 48565 soundings from University of Wyoming archive,
 parses sounding indices, applies quality control.
 
-**Output:** `outputs/sounding_indices.csv`
+**Output:** `outputs/sounding_indices_raw.csv`
 
 ---
 
@@ -31,7 +31,7 @@ Aligns sounding indices with daily rainfall observations,
 computes wind-profile features, assembles F1–F4 feature sets,
 applies correlation screening (|r| >= 0.90) on training data only.
 
-**Input:** `outputs/sounding_indices.csv` + rainfall data  
+**Input:** `outputs/sounding_indices_raw.csv` + rainfall data  
 **Output:** `outputs/dataset_final.csv`, `outputs/feature_sets.json`
 
 ---
